@@ -36,12 +36,10 @@ example: docker run -d -t --name nginxserver --hostname nginxpod nginx
  
 docker rm <contaienr> 
 ```
-
 ### Port forwarding 
 ```sh
 docker run -d -t --name nginx -p 8080:80 nginx
 ```
-
 inside a container of nginx got to /user/share/nginx/html location to update index.html
 
 ```sh
